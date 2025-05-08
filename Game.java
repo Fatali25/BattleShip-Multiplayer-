@@ -182,7 +182,11 @@ public class Game {
                 System.out.println("Already destroyed (water).\n-30 points for " + shooter.getName());
             }
         }
-
+        if (isGameOver()) {
+            String winner = getWinnerName();
+            System.out.println("Game over! " + winner + " won the game!");
+            System.exit(0);
+        }
         return true;
     }
 }
