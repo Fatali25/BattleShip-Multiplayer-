@@ -1,0 +1,9 @@
+1 8
+AAA.YY.X
+2 7
+DU..TTT
+DU.....
+3 5
+GG..M
+.GGM.
+.LLM.
